@@ -123,12 +123,12 @@ export const info = {
             source: "https://github.com/s1monFu/BeautifulCalculator",
             image: mock2
         },
-        // {
-        //     title: "Project 3",
-        //     live: "https://paytonpierce.dev",
-        //     source: "https://github.com/paytonjewell",
-        //     image: mock3
-        // },
+        {
+            title: "Stray Way",
+            live: "https://strayway.cheng-bing.top/",
+            source: "https://github.com/WiscWebGroup/strayway",
+            image: mock3
+        },
         // {
         //     title: "Project 4",
         //     live: "https://paytonpierce.dev",
