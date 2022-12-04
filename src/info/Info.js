@@ -39,9 +39,13 @@ export const info = {
             emoji: '🌎',
             text: 'based in the US'
         },
+        // {
+        //     emoji: "💼",
+        //     text: "Intern at Wisconsin Foundation"
+        // },
         {
-            emoji: "💼",
-            text: "Intern at Wisconsin Foundation"
+            emoji: "📷",
+            text: "a photography lover"
         },
         {
             emoji: "📧",
@@ -54,11 +58,6 @@ export const info = {
         //     icon: 'fa fa-facebook',
         //     label: 'facebook'
         // },
-        // {
-        //     link: "https://instagram.com",
-        //     icon: 'fa fa-instagram',
-        //     label: 'instagram'
-        // },
         {
             link: "https://github.com/s1monFu",
             icon: "fa fa-github",
@@ -68,6 +67,11 @@ export const info = {
             link: "https://linkedin.com/in/hongyusimonfu",
             icon: "fa fa-linkedin",
             label: 'linkedin'
+        },
+        {
+            link: "https://www.instagram.com/simon.captures/",
+            icon: 'fa fa-instagram',
+            label: 'instagram'
         },
         // {
         //     link: "https://twitter.com",
