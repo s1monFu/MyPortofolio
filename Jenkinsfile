@@ -4,8 +4,16 @@ pipeline {
     stages {
         stage('Initialize') {
             steps {
-                echo 'Initializing....'
+                echo 'Initializing...'
             }
+        }
+
+        stage('Killing'){
+            steps{
+                echo 'Killing...'
+                sh 'fuser -k -n tcp 9001'
+            }
+            
         }
 }
 }
