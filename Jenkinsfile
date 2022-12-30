@@ -8,12 +8,14 @@ pipeline {
             }
         }
 
-        stage('Killing'){
-            steps{
-                echo 'Killing...'
-                sh 'fuser -k -n tcp 9001'
-            }
-            
-        }
-}
+        // stage('Killing'){
+        //     steps{
+        //         echo 'Killing...'
+        //         sh 'fuser -k -n tcp 9001'
+        //     }
+        // }
+
+
+
+    }
 }
