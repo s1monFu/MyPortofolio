@@ -27,8 +27,8 @@ pipeline {
             steps{
                 echo 'Building...'
                 dir('/home/ubuntu/MyPortofolio'){
-                    sh 'npm install'
-                    sh 'npm run build'
+                    sh 'sudo npm install'
+                    sh 'sudo npm run build'
                     sh 'nohup serve -s build -l 9001 &'
                 }
             }
