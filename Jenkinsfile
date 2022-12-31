@@ -11,7 +11,7 @@ pipeline {
         stage('Killing'){
             steps{
                 echo 'Killing...'
-                sh 'fuser -k -n tcp 9001 || true'
+                sh 'sudo fuser -n tcp -k 9001 || true'
             }
         }
 
@@ -29,7 +29,7 @@ pipeline {
                 dir('/home/ubuntu/MyPortofolio'){
                     sh 'sudo npm install'
                     sh 'sudo npm run build'
-                    sh 'nohup serve -s build -l 9001 &'
+                    sh 'JENKINS_NODE_COOKIE=dontKillMe nohup serve -s build -l 9001 &'
                 }
             }
         }
