@@ -18,8 +18,8 @@ pipeline {
         stage('Copy'){
             steps{
                 echo 'Copying...'
-                sh 'rm -rf /home/ubuntu/MyPortofolio'
-                sh 'cp -r /var/lib/jenkins/workspace/MyPortofolio /home/ubuntu/MyPortofolio'
+                sh 'sudo rm -rf /home/ubuntu/MyPortofolio'
+                sh 'sudo cp -r /var/lib/jenkins/workspace/MyPortofolio /home/ubuntu/MyPortofolio'
             }
         }
 
